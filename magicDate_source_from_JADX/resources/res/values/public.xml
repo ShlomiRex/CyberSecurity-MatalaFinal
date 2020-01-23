@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="background" id="2130837504" />
+    <public type="drawable" name="cloud" id="2130837505" />
+    <public type="drawable" name="ic_menu_help" id="2130837506" />
+    <public type="drawable" name="icon" id="2130837507" />
+    <public type="drawable" name="star" id="2130837508" />
+    <public type="layout" name="main" id="2130903040" />
+    <public type="string" name="app_name" id="2130968576" />
+    <public type="string" name="btn_berechnen" id="2130968577" />
+    <public type="string" name="btn_zufall" id="2130968578" />
+    <public type="string" name="txt_sekunden" id="2130968579" />
+    <public type="string" name="txt_minuten" id="2130968580" />
+    <public type="string" name="txt_stunden" id="2130968581" />
+    <public type="string" name="txt_tage" id="2130968582" />
+    <public type="string" name="txt_wochen" id="2130968583" />
+    <public type="string" name="txt_monate" id="2130968584" />
+    <public type="string" name="txt_jahre" id="2130968585" />
+    <public type="string" name="txt_magicdate" id="2130968586" />
+    <public type="string" name="msg_wert" id="2130968587" />
+    <public type="string" name="txt_hilfe" id="2130968588" />
+    <public type="string" name="txt_hilfetext" id="2130968589" />
+    <public type="menu" name="menu" id="2131034112" />
+    <public type="id" name="datepicker" id="2131099648" />
+    <public type="id" name="anzahl" id="2131099649" />
+    <public type="id" name="typ" id="2131099650" />
+    <public type="id" name="typ_text" id="2131099651" />
+    <public type="id" name="berechnen" id="2131099652" />
+    <public type="id" name="zufall" id="2131099653" />
+    <public type="id" name="datum" id="2131099654" />
+    <public type="id" name="help" id="2131099655" />
+</resources>
