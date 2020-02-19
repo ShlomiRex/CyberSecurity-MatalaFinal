@@ -1,0 +1,56 @@
+To convert APK to Smali:
+$ apktool d magicDate.apk
+
+To convert Smali folder to APK:
+$ apktool b smaliFolder/ -o myapp.apk
+
+To install apk onto android emulator:
+$ adb install myapp.apk
+
+To generate public and private key:
+$ keytool -alias -genkey -v -keystore mykey.keystore
+
+To compile Android Studio project into apk: (Release build)
+$ ./gradlew assembleRelease
+
+Keysotre
+=========
+Password: shlomi333
+Alias: shlomi
+
+* Where in Smali code (in Base app) is the function of the 'Calculate' button
+* I should insert Smali code THERE.
+* Add to the Manifest the malware permissions
+* Need to check if the app works and doesn't crash
+* Export all information to information.txt inside the phone
+
+Where to insert code in smali of magicDate.smali:
+invoke-direct {p0, v1}, Lcom/MagicDate/MagicDate;->calc(I)V
+
+What I want to gather information:
+
+1. Phone user real name                               -
+2. Phone username                                     -
+3. Phone model                                        V
+4. Phone android version                              V
+5. Is connected to wifi?                              V
+6. If so, what is the name of the wifi?               V
+7. GPS location                                       V
+8. Get all file names file tree                       V
+
+
+
+1)מיקום GPS
+2) שם משתמש
+3)MAC , IP 
+4) איזה מודל / חברה המכשיר
+5)גרסת אנרואיד
+6)לאיזה WIFI מחובר
+7) קבצים - לקרוא מזיכרון 
+8) איזה אפליקציות רצות
+9) מה השעה
+10) מספר טלפון
+11) סוג מעבד
+12) סריקת רשתות
+13) מה אחוז הסוללה
+14) כמות זיכרון
