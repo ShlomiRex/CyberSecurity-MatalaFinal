@@ -1,5 +1,5 @@
 #!/bin/bash
-main_drebin_script="/home/shlomi/Desktop/CyberSecurity-MatalaFinal/drebin/src/Main.py"
+main_drebin_dir="/home/shlomi/Desktop/CyberSecurity-MatalaFinal/drebin/src"
 
 #Drebin example apks
 example_dir="/home/shlomi/Desktop/example-apks/example"
@@ -9,4 +9,5 @@ testmaldir="$example_dir/mal_test"
 testgooddir="$example_dir/ben_test"
 
 #Run drebin
-python2 $main_drebin_script --holdout 1 --maldir $maldir --gooddir $gooddir --testmaldir $testmaldir --testgooddir $testgooddir
+cd $main_drebin_dir
+python2 "Main.py" --holdout 1 --maldir $maldir --gooddir $gooddir --testmaldir $testmaldir --testgooddir $testgooddir
